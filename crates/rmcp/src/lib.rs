@@ -112,7 +112,7 @@ pub mod transport;
 #[cfg(all(feature = "macros", feature = "server"))]
 pub use paste::paste;
 #[cfg(all(feature = "macros", feature = "server"))]
-pub use rmcp_macros::tool;
+pub use rmcp_macros::{tool, tool_extend};
 #[cfg(all(feature = "macros", feature = "server"))]
 pub use schemars;
 #[cfg(feature = "macros")]
